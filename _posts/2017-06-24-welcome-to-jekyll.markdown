@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello Firebase! x"
+title:  "Heallo Firebase! x"
 date:   2017-06-24 15:52:51 +0700
 categories: how-to firebase
 ---
