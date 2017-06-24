@@ -1,11 +1,11 @@
-title: Perdana & Code
+title: un·ex·pect·ed
 description: Unlimited Code Works
 author: Perdana Hadi Sanjaya
 github: https://github.com/ceroberoz
-about: Full Stack Backend Developer, Linux Enthusiast & Experimental Developer
-disqus_shortname: perdanahadisanjaya
-google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+about: Full Stack Backend Developer & Linux Enthusiast
+disqus_shortname: un-ex-pect-ed
+google_analytics: UA-101600176-1
+avatar_url: /static/img/3278288.png
 
 enableTags: true
 tagarray: []
@@ -17,13 +17,13 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "#"
+      link: "https://www.facebook.com/perdanahadii"
     - icon: fa-twitter
       link: "https://twitter.com/ceropyon"
     - icon: fa-linkedin
       link: "https://www.linkedin.com/in/perdana-hadi-sanjaya-6079b652"
     - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.kaskus.co.id/profile/aboutme/786407"
     - icon: fa-github
       link: "https://github.com/ceroberoz"
 
