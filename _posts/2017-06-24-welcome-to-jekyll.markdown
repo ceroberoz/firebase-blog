@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hellwo danakness my old friend"
+title:  "Hellwo danbbkness my old friend"
 date:   2017-06-24 15:52:51 +0700
 categories: how-to firebase
 ---
