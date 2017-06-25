@@ -41,7 +41,7 @@ script:
   - set -e
   #build jekyll site
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --disable-external
+  - bundle exec htmlproofer ./_site --disable-external --assume-extension
 
 after_success:
   #deploy to firebase using stored token.
