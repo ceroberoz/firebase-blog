@@ -65,7 +65,7 @@ $ sudo vim /etc/hosts
 
 Add your domain or sub-domain under `localhost`
 ```
-$ 127.0.0.1       localhost kerekeren.id sandbox.kerekeren.id
+127.0.0.1       localhost kerekeren.id sandbox.kerekeren.id
 ```
 
 Save the changes and proceed to the next step.
@@ -76,7 +76,7 @@ I am using CloudFlare (CF) as DNS Manager, so if you're not using CF then you ha
 
 Open your DNS Manager, add **A** record with your desireable **domain** AND **your-server-ip**
 
-![CloudFlare DNS Manager](https://raw.githubusercontent.com/ceroberoz/firebase-blog/master/static/img/_posts//manage-cf-dns.png)
+![CloudFlare DNS Manager](https://raw.githubusercontent.com/ceroberoz/firebase-blog/master/static/img/_posts/manage-cf-dns.png)
 
 Done
 

@@ -8,7 +8,7 @@ categories: hackerboard
 ---
 Pretext: Orange Pi Zero (512MB ver) a USD 8.99 (not include shipping from China to Indonesia) is a better Single Board Computer (SBC) with more capabilities from it's competitor under USD 10. (Rapsberry Pi Zero or Nanopi Neo)
 
-![orange pi zero]({{site.baseurl}}/static/img/_post/orange-pi-zero-101/orangepizero.png)
+![orange pi zero](https://raw.githubusercontent.com/ceroberoz/firebase-blog/master/static/img/_posts/orangepizero.png)
 
 Currently I am using it for:
 
@@ -45,7 +45,7 @@ And with the specification, I am sure you can do more ;)
 
 ### Pin Out
 
-![Orange Pi Zero Pinout]({{site.baseurl}}/assets/post/orange-pi-zero-101/Orange-Pi-Zero-Pinout-banner2.jpg)
+![Orange Pi Zero Pinout](https://raw.githubusercontent.com/ceroberoz/firebase-blog/master/static/img/_posts/range-Pi-Zero-Pinout-banner2.jpg)
 
 ### Supported OS
 

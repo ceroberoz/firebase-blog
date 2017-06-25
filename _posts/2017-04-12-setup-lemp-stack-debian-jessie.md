@@ -23,23 +23,23 @@ So here what I do.
 **Install Nginx**
 
 It's a straightforward process :)
-
-> sudo apt-get install nginx
-
+```
+$ sudo apt-get install nginx
+```
 **Configure Nginx**
 
 Set worker process Nginx to fit your total core(s). You may subtitute vim with your-favorite-text-editor.
-
-> sudo vim /etc/nginx/nginx.conf
-
+```
+$ sudo vim /etc/nginx/nginx.conf
+```
 Set `worker_processes` to 4
-
-> worker_processes 4;
-
+```
+$ worker_processes 4;
+```
 Save the changes and restart Nginx
-
-> sudo service nginx restart
-
+```
+$ sudo service nginx restart
+```
 Configure `/etc/nginx/sites-available/default`, add `index.php` into `index` section.
 
 You can also set `root` directory to fit your needs, in my case I set it into `*/media/usb/http`
@@ -81,33 +81,33 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
 Restart nginx to apply changes
-
-> sudo service nginx restart
-
+```
+$ sudo service nginx restart
+```
 ### Install & Configure PHP
 
 **Install PHP**
-
-> sudo  php5-fpm php5-cli php5-mcrypt
-
+```
+$ sudo  php5-fpm php5-cli php5-mcrypt
+```
 **Configure PHP**
 
 Update your `php.ini`
-
-> sudo nano /etc/php5/fpm/php.ini
-
+```
+$ sudo nano /etc/php5/fpm/php.ini
+```
 Find `cgi.fix_pathinfo=1`, uncomment it and set it to
-
-> cgi.fix_pathinfo=0
-
+```
+cgi.fix_pathinfo=0
+```
 Restart `php5-fpm` service to apply the changes
-
-> sudo service php5-fpm restart
-
+```
+$ sudo service php5-fpm restart
+```
 Check if `php5-fpm` already running by create a file into your `root web directory`
-
-> sudo vim /media/usb/http/kepo.php
-
+```
+$ sudo vim /media/usb/http/kepo.php
+```
 And added `phpinfo();` inside `kepo.php`
 ```
 <?php
@@ -121,17 +121,17 @@ Now open `http://localhost/kepo.php` to see your `PHP` information.
 ### Install & Configure MariaDb
 
 **Install MariaDb**
-
-> sudo apt-get install mariadb-server mariadb-client
-
+```
+$ sudo apt-get install mariadb-server mariadb-client
+```
 Check if service MariaDb alread running
-
-> sudo service mysql status
-
+```
+$ sudo service mysql status
+```
 Check and login to MariaDB
-
-> sudo mysql -v -u root -p
-
+```
+$ sudo mysql -v -u root -p
+```
 To manage and administre MariaDb you could use.. (pick any)
 
 Desktop based (Linux): MySQL Workbench (the only and only one native Linux desktop based MySQL manager, if you know what I mean)
