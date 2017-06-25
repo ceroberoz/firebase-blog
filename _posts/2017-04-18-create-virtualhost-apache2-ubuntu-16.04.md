@@ -76,7 +76,7 @@ I am using CloudFlare (CF) as DNS Manager, so if you're not using CF then you ha
 
 Open your DNS Manager, add **A** record with your desireable **domain** AND **your-server-ip**
 
-![CloudFlare DNS Manager]({{site.baseurl}}/static/img/_post/create-virtualhost-apache2-ubuntu-16.04/manage-cf-dns.png)
+![CloudFlare DNS Manager](https://raw.githubusercontent.com/ceroberoz/firebase-blog/master/static/img/_posts//manage-cf-dns.png)
 
 Done
 
