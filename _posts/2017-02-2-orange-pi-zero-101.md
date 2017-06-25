@@ -45,7 +45,7 @@ And with the specification, I am sure you can do more ;)
 
 ### Pin Out
 
-![Orange Pi Zero Pinout](https://raw.githubusercontent.com/ceroberoz/firebase-blog/master/static/img/_posts/range-Pi-Zero-Pinout-banner2.jpg)
+![Orange Pi Zero Pinout](https://raw.githubusercontent.com/ceroberoz/firebase-blog/master/static/img/_posts/Orange-Pi-Zero-Pinout-banner2.jpg)
 
 ### Supported OS
 
